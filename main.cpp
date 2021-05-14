@@ -242,9 +242,11 @@ class Matrix{
 };
 
 int main(){
-    Matrix<int> o_M(5,6);
-    o_M.fn_InsertEle(0, 0, 1);
-    o_M.fn_InsertEle(0, 1, 1);
+    Matrix<int> o_M(4,4);
+    o_M.fn_InsertEle(0, 2, 11);
+    o_M.fn_InsertEle(1, 0, 12);
+    o_M.fn_InsertEle(2, 1, -4);
+    o_M.fn_InsertEle(3, 3, -15);
     o_M.fn_TraceR();
     return 0;
 }
